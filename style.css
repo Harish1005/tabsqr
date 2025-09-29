@@ -1,0 +1,387 @@
+/* Common styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: inline;
+}
+
+/* Button styles */
+
+.my-pri-btn {
+  background-color: #FF6B00;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.my-sec-btn {
+  background-color: #FFFFFF;
+  padding: 12px 32px;
+  border: 1px solid #c9c9c9;
+  border-radius: 10px;
+}
+
+/* Heading and font styles */
+
+h1{
+  font-weight: 800;
+}
+h2,h3,h4,h5,h6{
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: #949494;
+}
+
+@media only screen and (min-width:992px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width:569px) and (max-width:991px) {
+  h1 {
+    font-size: 65px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width:568px) {
+  h1 {
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+}
+
+/* Padding section */
+
+.hero-section,
+.stat-section,
+.solution-section,
+.system-section,
+.power-section,
+.impact-section,
+.enhance-section,
+.footer-section,
+/* munchmate */
+.munchmate-section,
+.munch-stat-section,
+.munch-banner-section,
+/* customer */
+.customer-section,
+.customer-stat-section,
+.customer-banner-section,
+/* payment */
+.payment-section,
+.payment-stat-section,
+.payment-banner-section,
+/* order */
+.order-section,
+.order-stat-section,
+.order-banner-section,
+.operation-section,
+.partner-section,
+.become-section,
+.about-section,
+.flag-section,
+.mission-section,
+.ourimpact-section,
+.crew-section,
+.support-section,
+.global-section,
+.singa-section,
+.aus-section,
+.malai-section,
+.indo-section,
+.taiwan-section{
+  padding: 100px 0px;
+}
+
+
+/* Header section */
+
+.header-section {
+  background-color: #F5F3EF;
+}
+
+.header-wrapper a {
+  font-size: 14px;
+}
+
+.header-wrapper > div > div:nth-child(2) > div > nav a:hover{
+  color: #FF6B00;
+}
+
+.header-wrapper > div > div:nth-child(2) > div > nav a:active{
+  color: #FF6B00;
+}
+
+
+/* Homepage section */
+
+.homepage-section {
+  background-color: #F5F3EF;
+  padding: 100px 0px 0px 0px;
+}
+
+/* Stat section */
+
+.stat-section{
+  background-color: #F5F3EF;
+}
+
+/* Solution section */
+
+
+/* System section */
+
+.system-section{
+  background-color: #09090C;
+  color: #ffffff;
+}
+
+/* Impact section */
+
+.impact-section{
+  background-color: #F5F3EF;
+}
+
+/* Enhance section */
+
+.enhance-section{
+  background-color: #FF6B00;
+  color: white;
+}
+
+.enhance-wrapper p{
+  color: #FFFFFF;
+}
+
+/* Footer section */
+
+.footer-section{
+  background-color: #09090C;
+}
+
+.footer-wrapper h5{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.footer-wrapper a{
+  color: #949494;
+  font-size: 14px;
+}
+
+.footer-wrapper > div:nth-child(3) p{
+  color: #949494;
+  font-size: 14px;
+}
+
+/* Munchmate page */
+
+.munchmate-section,
+.customer-section,
+.payment-section,
+.order-section{
+  background-color: #F5F3EF;
+}
+
+.munchmate-wrapper > h6,
+.customer-wrapper > h6,
+.payment-wrapper > h6,
+.order-wrapper > h6{
+  color: #FF6B00;
+}
+
+.munchmate-wrapper > div:nth-child(5) > iframe,
+.customer-wrapper > div:nth-child(5) > iframe,
+.payment-wrapper > div:nth-child(5) > iframe,
+.order-wrapper > div:nth-child(5) > iframe{
+  border-radius: 20px;
+  min-height: 700px;
+  vertical-align: middle;
+}
+
+.munch-banner-section,
+.customer-banner-section,
+.payment-banner-section,
+.order-banner-section{
+  background-color: #F5F3EF;
+  color: #FFFFFF;
+}
+
+.munch-banner-wrapper > div,
+.customer-banner-wrapper > div,
+.payment-banner-wrapper > div,
+.order-banner-wrapper > div{
+  background-color: #0E0E12;
+  border-radius: 20px;
+}
+
+.munch-banner-wrapper h6,
+.customer-banner-wrapper h6,
+.payment-banner-wrapper h6,
+.order-banner-wrapper h6{
+  color: #FF6B00;
+}
+
+.munch-banner-wrapper p,
+.customer-banner-wrapper p,
+.payment-banner-wrapper p,
+.order-banner-wrapper p{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.customer-banner-section h2,
+.payment-banner-section h2,
+.order-banner-section h2{
+  color: #000000;
+}
+
+
+/* Operation section */
+
+.operation-section{
+  background-color: #0E0E12;
+}
+
+.operation-wrapper h2{
+  color: #FFFFFF;
+}
+
+.operation-wrapper p{
+  color: #949494;
+}
+
+
+/* Become-section */
+
+.become-section{
+  background-color: #09090C;
+}
+
+.become-wrapper p{
+  color: #949494;
+}
+
+.become-wrapper h2{
+  color: #FFFFFF;
+}
+
+/* About section */
+
+.about-section{
+  background-color: #F5F3EF;
+}
+
+.about-wrapper h5{
+  color: #FF6B00;
+  font-size: 16px;
+}
+
+.about-wrapper p{
+  color: #949494;
+}
+
+/* Flag section */
+
+/* Mission section */
+
+.mission-section{
+  background-color: #F5F3EF;
+}
+
+.mission-wrapper p{
+  color: #000000;
+}
+
+/* Our Impact section*/
+
+.ourimpact-wrapper p {
+  color: #000000;
+}
+
+/* Suppport section */
+
+.support-section{
+  background-color: #F5F3EF;
+}
+
+/* Global section */
+
+.global-wrapper a{
+  color: #FF6B00;
+}
+
+/* Singa section */
+
+.singa-section,
+.malai-section,
+.taiwan-section
+{
+  background-color: #F5F3EF;
+}
+
+.singa-wrapper a,
+.aus-wrapper a,
+.malai-wrapper a,
+.indo-wrapper a,
+.taiwan-wrapper a
+{
+  color: #FF6B00;
+}
+
+.singa-wrapper > div:nth-child(1) p,
+.aus-wrapper > div:nth-child(1) p,
+.malai-wrapper > div:nth-child(1) p,
+.indo-wrapper > div:nth-child(1) p,
+.taiwan-wrapper > div:nth-child(1) p
+{
+  margin-bottom: 140px;
+}
